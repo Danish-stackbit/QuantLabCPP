@@ -1,0 +1,32 @@
+# Python dependencies for research helpers and data preparation
+# Note: Core QuantLabCPP is C++ only. Python is optional helper.
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.14.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.23.0
+
+# Data download
+yfinance>=0.2.0
+requests>=2.31.0
+
+# Analysis
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Dashboard (optional)
+streamlit>=1.23.0
+
+# Testing
+pytest>=7.3.0
+
+# Documentation
+mkdocs>=1.4.0
+mkdocs-material>=9.1.0

@@ -1,69 +1,59 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+```
+# Build artifacts
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
-
-# Build directories
 build/
-Build/
-build-*/
+dist/
 
-# CMake generated files
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+.env
+.env.local
+.env.*
+env.bak/
+venv.bak/
+
+# CMake
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-install_manifest.txt
+*.cmake
 compile_commands.json
 
-# Temporary files
-*.tmp
+# Logs
 *.log
-*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
 *.swp
+*.swo
+*.tmp
 
-# vcpkg
-vcpkg_installed/
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# MyPy cache
+.mypy_cache/
+```

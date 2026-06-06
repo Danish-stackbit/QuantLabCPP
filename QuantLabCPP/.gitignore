@@ -1,0 +1,49 @@
+# Build directory
+build/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Data files (keep sample data)
+data/*.csv
+!data/sample.csv
+
+# Reports and outputs
+reports/*.pdf
+reports/*.html
+dashboard/output/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test outputs
+test_output/
+coverage/
